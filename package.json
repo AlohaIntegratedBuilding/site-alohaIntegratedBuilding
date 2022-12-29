@@ -37,7 +37,7 @@
     "gulp-filter": "*",
     "gulp-htmlmin": "*",
     "gulp-if": "*",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-include": "*",
     "gulp-postcss": "*",
     "gulp-sass": "^5.1.0",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "express": "^4.17.2",
-    "node-sass": "^6.0.1",
+    "node-sass": "^8.0.0",
     "postcss": "^8.4.5",
     "video-worker": "^1.1.17"
   }
