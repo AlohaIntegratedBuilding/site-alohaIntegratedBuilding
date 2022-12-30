@@ -791,12 +791,13 @@
                             <div class="form-group">
                                 <label for="service" class="form-label">Select the service</label>
                                 <select type="select" name="need" class="custom-select" id="service">
-                                    <option type="option" name="needType" value="1">Railing - New </option>
-                                    <option type="option" name="needType" value="2">Railing - Repair</option>
-                                    <option type="option" name="needType" value="3">Stairs - New</option>
-                                    <option type="option" name="needType" value="4">Stairs - Repair</option>
-                                    <option type="option" name="needType" value="5">Stair and Railing - New</option>
-                                    <option type="option" name="needType" value="5">Stair and Railing - Repair</option>
+                                    <option type="option" name="needType" value="Railing - New">Railing - New </option>
+                                    <option type="option" name="needType" value="Railing - Repair">Railing - Repair</option>
+                                    <option type="option" name="needType" value="Stairs - New">Stairs - New</option>
+                                    <option type="option" name="needType" value="Stairs - Repair">Stairs - Repair</option>
+                                    <option type="option" name="needType" value="Stair and Railing - New">Stair and Railing - New</option>
+                                    <option type="option" name="needType" value="Stair and Railing - Repair">Stair and Railing - Repair</option>
+                                    <option type="option" name="needType" value="Other">Other</option>
                                 </select>
                             </div>
                         </div>
@@ -821,6 +822,7 @@
                             </div> -->
                             <div class="form-group mb-0">
                                 <button class="btn btn-primary btn-lg" type="submit">Send message</button>
+                                <input type="hidden" name="_template" value="table">
                             </div>
                         </div>
                     </form>
