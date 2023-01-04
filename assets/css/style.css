@@ -13126,6 +13126,8 @@ button.bg-dark:focus {
   text-transform: uppercase;
   font-size: 0.75rem;
   color: #9B9B9B;
+ 
+
   margin-bottom: 0.25rem;
   line-height: 1.5;
   vertical-align: middle; }
@@ -14976,7 +14978,15 @@ a.footer-brand {
   letter-spacing: 0.125rem;
   text-transform: uppercase;
   font-size: 0.75rem;
-  color: #9B9B9B; }
+  color: #9B9B9B; 
+  }
+
+  .form-label-upload {
+    font-family: "Arimo", sans-serif;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #3DB36D;}
 
 .form-check-label {
   cursor: pointer; }

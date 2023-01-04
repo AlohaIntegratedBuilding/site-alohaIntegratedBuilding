@@ -7,7 +7,8 @@
   letter-spacing: $letter-spacing;
   text-transform: uppercase;
   font-size: rem(nth($typography-sizings, 1));
-  color: $text-muted;
+  //color: $text-muted;
+  color: red;
 }
 
 .form-check-label {
