@@ -770,12 +770,16 @@
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Details of your need"></textarea>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Provide details of your need"></textarea>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="attachment" class="form-label">Upload images (.png, .jpg, .jpeg) Note: 5mb size limit</label>
+                                <label for="attachment" class="form-label-upload">Upload images (.png, .jpg, .jpeg) Note: 5mb total size limit for all attachments</label>
+                                <input type="file" name="attachment" accept="image/png, image/jpeg">
+                                <hr>
+                                <input type="file" name="attachment" accept="image/png, image/jpeg">
+                                <hr>
                                 <input type="file" name="attachment" accept="image/png, image/jpeg">
                             </div>
                         </div>
